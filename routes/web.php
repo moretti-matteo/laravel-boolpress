@@ -26,6 +26,10 @@ route::middleware('auth')->namespace('Admin')->name('admin.')->prefix('admin')->
     Route::resource('tags', 'TagController');
 });
 
-Route::get('{any?}', function () {
-    return view('guest.home');
-})->where('any', '.*');
+// Route::get('{any?}', function () {
+//     return view('guest.home');
+// })->where('any', '.*');
+
+Route::get("{any?}", function () {
+    return view("front");
+})->where("any", ".*");

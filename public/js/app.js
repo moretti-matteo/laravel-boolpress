@@ -1931,7 +1931,9 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _vm._m(0);
+  return _c("div", {
+    staticClass: "container"
+  }, [_c("router-view"), _vm._v(" "), _vm._m(0)], 1);
 };
 
 var staticRenderFns = [function () {
@@ -1939,8 +1941,6 @@ var staticRenderFns = [function () {
       _c = _vm._self._c;
 
   return _c("div", {
-    staticClass: "container"
-  }, [_c("div", {
     staticClass: "row justify-content-center"
   }, [_c("div", {
     staticClass: "col-md-8"
@@ -1950,7 +1950,7 @@ var staticRenderFns = [function () {
     staticClass: "card-header"
   }, [_vm._v("Example Component")]), _vm._v(" "), _c("div", {
     staticClass: "card-body"
-  }, [_vm._v("\n                    I'm an example component.\n                ")])])])])]);
+  }, [_vm._v("\n                    I'm an example component.\n                ")])])])]);
 }];
 render._withStripped = true;
 
@@ -49598,8 +49598,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\matte\Desktop\Boolean Courses\boolean-git\laravel\laravel-many-to-many\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\matte\Desktop\Boolean Courses\boolean-git\laravel\laravel-many-to-many\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\matte\Desktop\Boolean Courses\boolean-git\laravel\laravel-boolpress\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\matte\Desktop\Boolean Courses\boolean-git\laravel\laravel-boolpress\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
